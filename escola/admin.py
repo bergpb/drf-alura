@@ -11,7 +11,6 @@ class Alunos(admin.ModelAdmin):
 
 admin.site.register(Aluno, Alunos)
 
-
 class Cursos(admin.ModelAdmin):
     list_display = ('id', 'codigo_curso', 'descricao')
     list_display_links = ('id', 'codigo_curso')
